@@ -1,0 +1,34 @@
+img {
+    height: 800px;
+    width: 100%;
+}
+
+.person-contain {
+    margin: 100px 5px;
+    display: flex;
+}
+
+#person {
+    height: 725px;
+    width: 560px;
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.paragraph {
+    padding: 50px;
+}
+
+.Icons {
+    display: flex;
+}
+
+div>img {
+    height: 50px;
+    weight: 30px;
+}
+
+.text {
+    font-size: bold;
+    text-align: center;
+}
