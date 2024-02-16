@@ -1,18 +1,30 @@
+/* common CSS */
+
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 img {
-    height: 800px;
+    height: 720px;
     width: 100%;
 }
 
 .person-contain {
     margin: 100px 5px;
     display: flex;
+    align-items: center;
 }
 
 #person {
-    height: 725px;
-    width: 560px;
+    height: 700px;
+    width: 570px;
     padding: 50px;
-    margin-left: 100px;
+    margin-left: 340px;
+    margin-right: 90px;
+}
+
+#person-id {
+    font-size: 50px;
 }
 
 .paragraph {
@@ -25,10 +37,23 @@ img {
 
 div>img {
     height: 50px;
-    weight: 30px;
+    width: 30px;
 }
 
 .text {
-    font-size: bold;
+    font-size: 50px;
+    /* margin-bottom: 20px; */
+    font-weight: small;
     text-align: center;
+
+
+}
+
+.text-area {
+    height: 415px;
+    width: 400px;
+}
+
+.text-color {
+    color: rgb(89, 87, 87);
 }
