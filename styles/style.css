@@ -69,7 +69,7 @@ img {
 .double-img {
     padding: 50px;
     size-adjust;
-    margin-left: 150px ;
+    margin-left: 150px;
     margin-right: 200px;
 }
 
@@ -77,6 +77,7 @@ img {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    margin-left: 50px;
 }
 
 /* icons height width  */
@@ -100,10 +101,12 @@ h4 {
     height: 415px;
     width: 550px;
 }
-div > ul > li{
-    list-style-type: lower-greek;
+
+div>ul>li {
+    list-style-type: square;
     /* color: green; */
 }
+
 .info-description,
 .text-color {
     color: rgb(125, 121, 121);
@@ -127,39 +130,72 @@ h3 {
 
 .double-img {
     padding: 10px 40px;
-    margin:120px 300px;
+    margin: 120px 300px;
 }
-#back-TwoImg{
+
+#back-TwoImg {
     margin: 18px;
 }
+
 .btn-two {
     border-radius: 10px;
-    border: 4px solid rgb(239, 92, 19);
+    border: 4px solid rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
     color: rgb(243, 89, 28);
-    padding: 10px 30px;
+    padding: 15px;
     font-size: 30px;
 }
-    /* Footer Section  */
-.footer-back{
+
+/* Footer Section  */
+.footer-back {
     display: flex;
-    background-color:black;
-    /* background-size: 50% 50%; */
+    background-color: black;
+    height: 450px;
     color: white;
 }
 
-.future{
+.future {
     height: 400px;
     width: 300px;
     text-align: left;
     padding: 15px;
-    margin: 100px;
+    margin: 50px 330px;
 }
 
-.my-isccha{
-    background-image: url('../images/watch.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    height: 600px;
+.subscribe {
+    padding: 15px;
+    margin: 40px 100px 330px;
+}
+
+.footer-head {
+    font-size: 35px;
+}
+
+.media {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    /* align-items: center; */
+}
+
+.media-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+#email {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
 }
