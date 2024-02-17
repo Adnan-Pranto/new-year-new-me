@@ -1,74 +1,76 @@
 /* common CSS */
 
 * {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-    /* web site banner */
- .banner{
+
+/* web site banner */
+.banner {
     text-align: right;
-    width:auto;
-    height: 500px;
-    background-image: url('../images/banner/banner1.png') ;
+    background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
-    padding: 180px;
-    /* justify-content: space-around; */ 
- }
+    background-size: cover;
+    height: 1000px;
+    padding: 150px;
 
- h1{
-    font-size: 60px;
- }
-
-.banner-text{
-    height: 415px;
-    width: 400px;
-    margin-left: 800px;
 }
 
-.btn{
+h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-text {
+    height: 650px;
+    width: 700px;
+    margin-left: 1500px;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.btn {
     border-radius: 5px;
     border: 4px solid rgb(239, 92, 19);
     background-color: rgb(239, 92, 19);
     color: aliceblue;
     padding: 7px 20px;
-    font-size: 23px;
+    font-size: 28px;
     margin-top: 20px;
-    
+
 }
 
-
-.btn:hover{
+.btn:hover {
     background-color: rgb(142, 90, 246);
     border: 4px solid rgb(142, 90, 246);
 }
 
-    /* 2nd container  */
+/* 2nd container  */
 img {
     height: 720px;
     width: 100%;
 }
- 
+
 .person-contain {
-   
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
 }
 
 #person {
-    height: 700px;
+    height: 725px;
     width: 570px;
-    margin-left: 170px;
-    margin-right: 100px;
+    margin: 150px 150px 100px 400px;
 }
 
 #person-id {
-    font-size: 50px;
+    font-size: 60px;
 }
 
-.paragraph, .double-img {
+.paragraph,
+.double-img {
     padding: 50px;
-    margin-left: 50px;
-    margin-right: 1200px;
+    size-adjust;
+    margin-left: 150px ;
+    margin-right: 200px;
 }
 
 .Icons {
@@ -76,64 +78,88 @@ img {
     justify-content: space-around;
     text-align: center;
 }
-    /* icons height width  */
+
+/* icons height width  */
 div>img {
     height: 100px;
     width: 100px;
     align-items: center;
 }
-h4{
+
+h4 {
     font-size: 35px;
 }
+
 .text {
     font-size: 50px;
-    /* margin-bottom: 20px; */
-    font-weight: small;
     text-align: center;
-
 
 }
 
 .text-area {
     height: 415px;
-    width: 400px;
+    width: 550px;
 }
-
-.info-description, .text-color {
+div > ul > li{
+    list-style-type: lower-greek;
+    /* color: green; */
+}
+.info-description,
+.text-color {
     color: rgb(125, 121, 121);
-    font-size: 22px;
+    font-size: 31px;
 }
 
-    /* Part 3 Lets me */
-    /* {
-        max-width:20px;
-        margin: 0 auto;
-
-    } */
-
-    /* Last PArt Double Image */
-.double-img{
-    background-image:  url('../images/gradient2.png'), url('../images/watch.png');
-    width: 100%;
-    imaheight: 500px;
+/* Last PArt Double Image */
+.double-img {
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
 }
 
-h3{
+h3 {
     font-size: 50px;
     color: aliceblue;
     max-width: 700px;
+    padding: 10px;
 }
-.double-img{
-    padding: 10px 60px;
-    margin-left: 40px;
+
+.double-img {
+    padding: 10px 40px;
+    margin:120px 300px;
 }
-.btn-two{
+#back-TwoImg{
+    margin: 18px;
+}
+.btn-two {
     border-radius: 10px;
     border: 4px solid rgb(239, 92, 19);
     background-color: rgb(255, 255, 255);
     color: rgb(243, 89, 28);
     padding: 10px 30px;
     font-size: 30px;
+}
+    /* Footer Section  */
+.footer-back{
+    display: flex;
+    background-color:black;
+    /* background-size: 50% 50%; */
+    color: white;
+}
+
+.future{
+    height: 400px;
+    width: 300px;
+    text-align: left;
+    padding: 15px;
+    margin: 100px;
+}
+
+.my-isccha{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     
+    height: 600px;
 }
